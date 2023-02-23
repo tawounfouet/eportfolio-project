@@ -1,1 +1,1 @@
-# Django Blog
+# Django Portfolio Project
