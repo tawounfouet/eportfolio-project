@@ -1,0 +1,46 @@
+{% load static %}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
+ <link rel="stylesheet" href="{% static 'projects/css/style.css' %}"> 
+
+ 
+  <title>My Porfolio</title>
+</head>
+
+
+<!-- { include 'includes/navbar.html' } -->
+
+{% include 'projects/nav.html' %}
+
+  {% block content %} {% endblock %}
+
+
+  <div class="bg-light mt-4">
+    <div class="container">
+      <div class="row pt-4 pb-3">
+        <div class="col">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item"><a href="#">À propos</a></li>
+            <li class="list-inline-item">&middot;</li>
+            <li class="list-inline-item"><a href="#">Vie privée</a></li>
+            <li class="list-inline-item">&middot;</li>
+            <li class="list-inline-item"><a href="#">Conditions d'utilisations</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <html>
