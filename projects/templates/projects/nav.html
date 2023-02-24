@@ -8,7 +8,7 @@
 
     <!-- ===== CSS ===== -->
     <!-- <link rel="stylesheet" href="nav_style.css"> -->
-    <link rel="stylesheet" href="{% static 'projects/css/nav_style.css' %}"> 
+    <link rel="stylesheet" href="{% static 'projects/css/nav_style.css' %}">
 
     <!-- ===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -19,42 +19,41 @@
 <header>
     <nav>
         <div class="nav-bar">
-            <i class='bx bx-menu sidebarOpen' ></i>
+            <i class='bx bx-menu sidebarOpen'></i>
             <span class="logo navLogo"><a href="{% url 'projects:project-list' %}"">ePortfolio</a></span>
 
-            <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="{% url 'projects:project-list' %}""> ePortfolio</a></span>
+            <div class=" menu">
+                    <div class="logo-toggle">
+                        <span class="logo"><a href="{% url 'projects:project-list' %}""> ePortfolio</a></span>
                     <i class='bx bx-x siderbarClose'></i>
                 </div>
 
-                <ul class="nav-links">
-                    <li><a href="{% url 'projects:project-list' %}"">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="{% url 'projects:project-list' %}"">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+                <ul class=" nav-links">
 
-            <div class="darkLight-searchBox">
-                <div class="dark-light">
-                    <i class='bx bx-moon moon'></i>
-                    <i class='bx bx-sun sun'></i>
-                </div>
-
-                <div class="searchBox">
-                   <div class="searchToggle">
-                    <i class='bx bx-x cancel'></i>
-                    <i class='bx bx-search search'></i>
-                   </div>
-
-                    <div class="search-field">
-                        <input type="text" placeholder="Search...">
-                        <i class='bx bx-search'></i>
+                    <li><a href=" #">A Propos</a></li>
+                                <li><a href="{% url 'projects:project-list' %}"">Mon Portfolio</a></li>
+                                <li><a href="#">Me Contacter</a></li>
+                                </ul>
                     </div>
-                </div>
-            </div>
+
+                    <div class="darkLight-searchBox">
+                        <div class="dark-light">
+                            <i class='bx bx-moon moon'></i>
+                            <i class='bx bx-sun sun'></i>
+                        </div>
+
+                        <div class="searchBox">
+                            <div class="searchToggle">
+                                <i class='bx bx-x cancel'></i>
+                                <i class='bx bx-search search'></i>
+                            </div>
+
+                            <div class="search-field">
+                                <input type="text" placeholder="Search...">
+                                <i class='bx bx-search'></i>
+                            </div>
+                        </div>
+                    </div>
         </div>
     </nav>
 

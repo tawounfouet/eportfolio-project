@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "livereload",
     "django.contrib.staticfiles",
+    
     'django_summernote',
     "projects",
     "posts",
